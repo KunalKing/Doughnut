@@ -23,7 +23,7 @@ Requirements - C, GCC Compiler.
 
         $ gcc  Doughnut.c -o Doughnut
         
-Make sure your program is located in your Home folder. Otherwise, you will need to specify appropriate paths in this command.
+   Make sure your program is located in your Home folder. Otherwise, you will need to specify appropriate paths in this command.
 
 3. Run the program
    The final step is to run the compiled C program. 
