@@ -12,20 +12,20 @@ Requirements - C, GCC Compiler.
 3. The “pixels” it plots are ASCII characters corresponding to the illumination value of the surface at each point: .,-~:;=!*#$@ from dimmest to brightest. No      raytracing required.
 
 /*.....How to run the code.....*/
-step 1 - Install the build-essential packages
-         In order to compile and execute a C program, you need to have the essential packages installed on your system. Enter the following command as root in your          Linux Terminal.
+1. Install the build-essential packages
+   In order to compile and execute a C program, you need to have the essential packages installed on your system. Enter the following command as root in your          Linux Terminal.
          
-         $ sudo apt-get install build-essential
+        $ sudo apt-get install build-essential
          
-Step 2 - Compile the C program with gcc Compiler
-         In your Terminal, enter the following command in order to make an executable version of the program you have written.
+2. Compile the C program with gcc Compiler
+   In your Terminal, enter the following command in order to make an executable version of the program you have written.
          
-Syntax: $ gcc [programName].c -o programName
+
         $ gcc  Doughnut.c -o Doughnut
         
 Make sure your program is located in your Home folder. Otherwise, you will need to specify appropriate paths in this command.
 
-step 3 - Run the program
-         The final step is to run the compiled C program. 
-Syntax: $ ./programName
+3. Run the program
+   The final step is to run the compiled C program. 
+
         $ ./Doughnut
